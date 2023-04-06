@@ -22,8 +22,8 @@ public class SvgImageLoaderFactory implements ImageLoaderFactory {
 
 	public static final void install(DimensionProvider dimensionProvider) {
 		SvgImageLoaderFactory.dimensionProvider = dimensionProvider;
-		
-		ImageStorage.addImageLoaderFactory(instance);
+
+		ImageStorage.getInstance().addImageLoaderFactory(instance);
 	}
 
 	public static final ImageLoaderFactory getInstance() {
