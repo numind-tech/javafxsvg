@@ -130,6 +130,7 @@
     <groupId>org.openjfx</groupId>
     <artifactId>javafx-controls</artifactId>
     <version>20</version>
+    <scope>provided</scope>
   </dependency>
   <dependency>
     <groupId>org.openjfx</groupId>
